@@ -199,11 +199,12 @@
         <Component class="javax.swing.JComboBox" name="cbxOperaciones">
           <Properties>
             <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-              <StringArray count="4">
-                <StringItem index="0" value="Sumar"/>
-                <StringItem index="1" value="Restar"/>
-                <StringItem index="2" value="Multiplicar"/>
-                <StringItem index="3" value="Dividir"/>
+              <StringArray count="5">
+                <StringItem index="0" value="Elige una operacion"/>
+                <StringItem index="1" value="Sumar"/>
+                <StringItem index="2" value="Restar"/>
+                <StringItem index="3" value="Multiplicar"/>
+                <StringItem index="4" value="Dividir"/>
               </StringArray>
             </Property>
           </Properties>

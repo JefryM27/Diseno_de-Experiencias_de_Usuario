@@ -131,7 +131,7 @@ private void limpiarCampos() {
         lblTipoOperacion.setForeground(new java.awt.Color(0, 0, 0));
         lblTipoOperacion.setText("Tipo de operacion a realizar: ");
 
-        cbxOperaciones.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Sumar", "Restar", "Multiplicar", "Dividir" }));
+        cbxOperaciones.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Elige una operacion", "Sumar", "Restar", "Multiplicar", "Dividir" }));
         cbxOperaciones.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 cbxOperacionesActionPerformed(evt);
